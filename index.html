@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>لعبة تخمين الرقم</title>
+    <link rel="stylesheet" href="/Number-guessing-game/css/style.css">
+   
+</head>
+<body>
+    <section>
+        <h1>لعبة تخمين الرقم</h1>
+        <p>لقد اخترنا رقمًا عشوائيًا بين 1 و 100. حاول تخمينه خلال 10 محاولات!</p>
+
+
+        <div class="form">
+            <input type="text" id="guessField" class="guessField">
+            <button class="guessSubmit">تخمين</button>
+        </div>
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+
+        </div>
+
+        
+    <script src="js/algorithms/random.js"></script>
+    <script src="js/algorithms/binary-search.js"></script>
+    <script src="js/algorithms/linear-search.js"></script>
+    <script src="js/main.js"></script>
+</section>
+</body>
+</html>
